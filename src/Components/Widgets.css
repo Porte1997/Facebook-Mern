@@ -1,0 +1,77 @@
+.widgets {
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+    padding: 15px 20px;
+}
+
+.notifications {
+    margin-bottom: 15px;
+}
+
+.note__header {
+    display: flex;
+    align-items: center;
+}
+.note__header>.icons {
+    color: #505050;
+}
+.note__header>h3 {
+    color: #505050;
+    margin-left: 10px;
+}
+.note__header>.icons {
+    color: #505050;
+}
+
+.note__list>p {
+    margin: 5px 0px; 
+    cursor: pointer;
+}
+
+.contacts {
+    margin: 15px 0px;
+}
+
+.contacts__head {
+    color: #505050;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.contacts__head>.icons {
+    cursor: pointer;
+
+}
+
+.contacts__head>.search__input {
+    display: flex;
+    align-items: center;
+    background-color: #a3aebc;
+    padding: 10px;
+    margin-left: 10px;
+    border-radius: 33px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.contacts__head>.search__input>.contacts__input {
+    border: none;
+    background-color: transparent;
+    outline-width: 0;
+    color: black;
+}
+
+.contacts>.contacts__online {
+    display: flex;
+}
+.contacts__online {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.contacts__online>.note_avatar {
+    margin-right: 10px;
+    cursor: pointer;
+}
